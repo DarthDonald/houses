@@ -1,24 +1,75 @@
 {
   "houses": [
+      {
+        "name": "Харьковский областной специализированный дом ребенка № 1",
+        "id": 1,
+        "count": 10
+      },
+      {
+        "name": "Детский дом №345 г. Москва",
+        "id": 2,
+        "count": 10
+      },
+      {
+        "name": "Детский дом №123 г. Винница",
+        "id": 3,
+        "count": 10
+      },
+      {
+        "name": "Детский дом №45 г. Киев",
+        "id": 4,
+        "count": 10
+      }
+    ],
+    "kids": [
     {
-      "name": "Харьковский областной специализированный дом ребенка № 1",
-      "id": 1,
-      "count": 10
+      "_id": "5a2f93c55d670777ad5201a9",
+      "name": "Katya",
+      "genre": "women",
+      "age": 1,
+      "id": 10,
+      "status": "inprogress"
     },
     {
-      "name": "Детский дом №345 г. Москва",
-      "id": 1,
-      "count": 10
+      "_id": "5a2f93c52bfbb33636d4d5cf",
+      "name": "Ira",
+      "genre": "women",
+      "age": 7,
+      "id": 2,
+      "status": "none"
     },
     {
-      "name": "Детский дом №123 г. Винница",
-      "id": 1,
-      "count": 10
+      "_id": "5a2f93c51061236cc090fa6e",
+      "name": "Lena",
+      "genre": "women",
+      "age": 5,
+      "id": 3,
+      "status": "done"
     },
     {
-      "name": "Детский дом №45 г. Киев",
-      "id": 1,
-      "count": 10
+      "_id": "5a2f93c5d27186020cd8c326",
+      "name": "Petya",
+      "genre": "men",
+      "age": 3,
+      "id": 4,
+      "status": "done"
+    },
+    {
+      "_id": "5a2f93c56ff229a6fd614df2",
+      "name": "Vasya",
+      "genre": "men",
+      "age": 7,
+      "id": 5,
+      "status": "inprogress"
+    },
+    {
+      "_id": "5a2f93c5453fba0f3ad86fa5",
+      "name": "Ura",
+      "genre": "men",
+      "age": 4,
+      "id": 6,
+      "status": "done"
     }
-  ]
+  ],
+  "user": [1,5]
 }
